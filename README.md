@@ -42,6 +42,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou e
 Ivan José dos Santos
 GitHub: [ivanydev](https://github.com/ivanydev)
 
+## LINK DE PREVISUALIZAÇÃO
+[podes prever aqui:](https://covid-dasboard-ivany.onrender.com)
+
 ## Licença
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
