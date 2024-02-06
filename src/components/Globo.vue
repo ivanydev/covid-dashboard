@@ -10,7 +10,7 @@ import { onMounted } from 'vue';
 import Globe from 'globe.gl';
 
 onMounted(() => {
-  fetch('./dados.json')
+  fetch('https://github.com/ivanydev/covid-dashboard/blob/main/dados.json')
     .then(res => res.json())
     .then(places => {
       const globe = Globe()
