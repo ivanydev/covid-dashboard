@@ -1,5 +1,5 @@
 # covid-dashboard
-projecto teste para preencher a vaga de fullStack developer na OnCenter brasil
+projecto teste para preencher a vaga de fullStack developer remoto
  
 
 ## Descrição
@@ -12,7 +12,7 @@ Além das funcionalidades básicas do painel de controle COVID, este projeto inc
 
 - **Melhorias no Design:** O painel de controle foi estilizado com uma paleta de cores atraente e um layout responsivo para uma melhor experiência do usuário.
 
-- **Card de Informações da Empresa:** Adição de um card com o logo da empresa e informações adicionais sobre a candidatura na OnCenter Chat.
+- **Card de Informações actual da COVID19 Brasil:** Adição de um card real Time e informações adicionais sobre a candidatura a vaga.
 
 ## Instalação e Execução
 1. Clone este repositório:
@@ -39,7 +39,7 @@ npm run dev ou yarn dev
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull request.
 
 ## Autor
-Ivan Y.
+Ivan José dos Santos
 GitHub: [ivanydev](https://github.com/ivanydev)
 
 ## Licença
