@@ -43,7 +43,7 @@ Ivan José dos Santos
 GitHub: [ivanydev](https://github.com/ivanydev)
 
 ## LINK DE PREVISUALIZAÇÃO
-[podes prever aqui:](https://covid-dasboard-ivany.onrender.com)
+[podes prever aqui: https://covid-dasboard-ivany.onrender.com](https://covid-dasboard-ivany.onrender.com)
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
