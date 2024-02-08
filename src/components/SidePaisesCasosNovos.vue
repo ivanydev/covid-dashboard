@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center w-full h-full bg-gradient-to-b from-dark-50">
-    <div class="w-full h-auto bg-light-100">
+    <div class="w-full h-full">
       <canvas ref="chart"></canvas>
     </div>
     

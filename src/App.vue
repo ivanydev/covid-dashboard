@@ -9,10 +9,10 @@
       <div class="absolute inset-0 z-10">
         <Globo/>
       </div>
-      <div class="absolute top-0 bottom-0 left-0 z-20 w-1/4">
+      <div class="absolute top-0 bottom-0 left-0 z-20 hidden w-1/4 sm:flex">
         <SideCasos/>
       </div>
-      <div class="absolute top-0 bottom-0 right-0 z-20 w-1/3">
+      <div class="absolute w-full sm:w-1/3 right-0 bottom-[12%]  z-20  h-[45%] ">
         <SidePaisesCasosNovos/>
       </div>
     </div>

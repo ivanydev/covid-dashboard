@@ -2,19 +2,19 @@
   <div class="w-full h-full bg-gradient-to-b from-blue-900">
     <div class="flex flex-col items-center h-full ">
       <!-- Card de Informações de Casos -->
-      <div class="p-6 m-4 bg-transparent rounded-lg shadow-2xl shadow-violet-500">
-        <h2 class="mb-4 text-2xl font-bold">ESTADO DE CASOS BRAZIL</h2>
+      <div class="p-6 m-4 bg-transparent rounded-lg shadow-xl shadow-violet-500">
+        <h2 class="mb-4 text-lg font-bold">ESTADO DE CASOS ANGOLA</h2>
         <p class="text-xl">País: {{ country }}</p>
         <p class="text-xl">Casos Confirmados: {{ confirmed }}</p>
         <p class="text-xl">Casos Totais: {{ cases }}</p>
         <p class="text-xl">Mortes: {{ deaths }}</p>
         <p class="text-xl">Recuperados: {{ recovered }}</p>
-        <p class="text-xl">Última atualização: {{ updatedAt }}</p>
+        <p class="text-base">Última atualização: {{ updatedAt }}</p>
       </div>
       
       <!-- Card de Logo da Empresa -->
       <div class="p-6 m-4 rounded-lg shadow-lg">
-        <img src="./logo.png" alt="Logo da Empresa" class="mx-auto h-28">
+        <!-- <img src="./logo.png" alt="Logo da Empresa" class="mx-auto h-28"> -->
         <!-- Informações adicionais da empresa podem ser adicionadas aqui -->
       </div>
     </div>
@@ -38,7 +38,7 @@ const updatedAt = ref('');
 
 onMounted(async () => {
   try {
-    const response = await axios.get('https://covid19-brazil-api.now.sh/api/report/v1/brazil');
+    const response = await axios.get('https://covid19-brazil-api.now.sh/api/report/v1/angola');
     const data = response.data.data;
     country.value = data.country;
     cases.value = data.cases;

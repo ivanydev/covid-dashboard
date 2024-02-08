@@ -17,7 +17,7 @@ import {
 } from '@heroicons/vue/24/outline';
 
 const navigation = [
-  { name: 'OnCenter Dashboard', href: '#', current: true },
+  { name: 'Covid Dashboard - by @Ívany_dos_santos', href: '#', current: true },
 ]
 
  
@@ -40,11 +40,11 @@ const navigation = [
             </DisclosureButton>
           </div>
           <div class="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
-            <div class="flex items-center flex-shrink-0 ">
+            <!-- <div class="flex items-center flex-shrink-0 ">
               <img class="w-auto h-16" src="./logo.png?color=indigo&shade=500" alt="OnCenterChat" />
-            </div>
+            </div> -->
             <div class="hidden sm:ml-6 sm:block">
-              <div class="flex pt-4 space-x-4">
+              <div class="flex pt-2space-x-4">
                 <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'rounded-md px-3 py-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
               </div>
             </div>
@@ -62,8 +62,8 @@ const navigation = [
                 <MenuButton class="relative flex text-sm focus:outline-none focus:ring-offset-2 focus:ring-offset-gray-800">
                   <span class="absolute -inset-1.5" />
                   <span class="sr-only">Open user menu</span>
-                  <img class="w-20 h-20 rounded-full" src="./logo.png?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                </MenuButton>
+                  <h1 class="font-semibold text-stroke-blue-400">USER-ADMIN</h1>
+                 </MenuButton>
               </div>
               <transition class="z-30" enter-active-class="transition duration-100 ease-out" enter-from-class="transform scale-95 opacity-0" enter-to-class="transform scale-100 opacity-100" leave-active-class="transition duration-75 ease-in" leave-from-class="transform scale-100 opacity-100" leave-to-class="transform scale-95 opacity-0">
                 <MenuItems class="absolute right-0 z-10 w-48 py-1 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
